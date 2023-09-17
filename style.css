@@ -1,0 +1,44 @@
+/*设置盒子大小并居中*/
+#all{
+width: 800px;
+height: 600px;
+margin:0 auto;
+}
+#top{
+    position: absolute;
+    width: 800px;
+    height: 80px;
+    background-color: #fefecc;
+}
+#middle{
+    position: absolute;
+    top: 88px;
+    width: 800px;
+    height: 80px;
+    background-color: #b18bf7;
+}
+#main{
+width: 800px;
+height: 100%;
+background-color: #c2a8ec;
+}
+#left{
+    height: 100%;
+    width: 150px;
+    float: left;
+    background-color: #e2d1fc;
+}
+#right{
+    height: 100%;
+    width: 150px;
+    float: right;
+    background-color: #e2d1fc;
+}
+#bottom{
+    position: absolute;
+    width: 800px;
+    height: 80px;
+    top: 528px;
+    background-color: #fefecc;
+}
+
